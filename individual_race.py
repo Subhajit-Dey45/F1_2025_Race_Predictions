@@ -13,8 +13,8 @@ os.makedirs(cache_folder, exist_ok=True)
 fastf1.Cache.enable_cache(cache_folder)
 
 # 2. Define the target event and year
-year = 2026
-event_name = 'Hungary'  
+year = 2025
+event_name = 'Race_name' #replace Race_name with actual race such as zandvoort or Dutch Grand Prix or Netherlands 
 
 print(f"Starting to cache: {event_name} {year}...")
 
